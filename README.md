@@ -3,7 +3,7 @@
 Welcome to the Data Warehouse and Analytics Project repository! 
 This project demonstrates a comprehensive data warehousing and analytics solution from huidling a data warehouse to generate actionable insights. Designed as a portfolio project that highlights industry best practices in data engineering and analytics. 
 
-## Project Requirements 
+## 🚀 Project Requirements 
 
 ### Buidling the Data Warehouse (Data Engineering) 
 
@@ -28,5 +28,5 @@ Develop SQL based analytics to delivery detailed insights into:
 
 These insights empower stakeholders with key metrics to enable strategic decision making. 
 
-### About Me 
+### 🌟 About Me 
 Hello! My name is Elaina Pata, I'm a recent graduate that completed my Masters of Science in Data Analytics. My goal in creating these projects is to show the scope of my skills in hopes of gaining employement. 
