@@ -3,7 +3,7 @@
 DDL Script: Create Bronze Tables
 ========================================
 Script Purpose: 
-  This script creates tables in the 'bronze' schema. Run this script to redefine the structure of the 'bronze' tables. 
+  This script creates tables in the 'bronze' schema while dropping existing tables if they already exist. Run this script to redefine the structure of the 'bronze' tables. 
   */
 
 --Creating bronze tables (using CRM & ERP source files)
