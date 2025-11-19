@@ -40,9 +40,12 @@ From '/data/cust_az12.csv'
 With (
    FIRSTROW = 2,
    FIELDTERMINATOR = ',',
-   ROWTERMINATOR = '\n',
+   ROWTERMINATOR = '\r\n',
    TABLOCK
 )
+UPDATE bronze.erp_cust_az12 --fixing weird line breaks in gen column
+SET gen = TRIM(REPLACE(REPLACE(gen, CHAR(13), ''), CHAR(10), ''))
+
 
 Bulk INSERT bronze.erp_loc_a101
 From '/data/loc_a101.csv'
@@ -52,6 +55,8 @@ With (
    ROWTERMINATOR = '\n',
    TABLOCK
 )
+UPDATE bronze.erp_loc_a101 --fixing weird line breaks in cntry column
+SET cntry = TRIM(REPLACE(REPLACE(cntry, CHAR(13), ''), CHAR(10), ''))
 
 Bulk INSERT bronze.erp_pd_cat_g1v2
 From '/data/pd_cat_g1v2.csv'
@@ -61,3 +66,5 @@ With (
    ROWTERMINATOR = '\n',
    TABLOCK
 )
+UPDATE bronze.erp_pd_cat_g1v2 --fixing weird line breaks in maintenance column
+SET maintenance = TRIM(REPLACE(REPLACE(maintenance, CHAR(13), ''), CHAR(10), ''))
