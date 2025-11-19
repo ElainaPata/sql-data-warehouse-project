@@ -1,7 +1,13 @@
+/*
+====================================================
+Insert Data from source files into Bronze layer
+====================================================
+Script Purpose: 
+   This script performs a bulk insert of the source csv files into 
+   each table created in the Bronze layer. 
+=========================================================================
+*/
 
-
-
---Performing Bulk Insert to add data to tables
 Bulk INSERT bronze.crm_cust_info
 From '/data/cust_info.csv'
 With (
