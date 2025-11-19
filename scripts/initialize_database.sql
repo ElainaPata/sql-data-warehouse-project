@@ -8,7 +8,7 @@ This script creates a new database nmaed 'DataWarehouse'. The script also sets u
 */
 
 
-Use master;
+Use master
 
 --Create the database 'DataWarehouse'
 Create DATABASE DataWarehouse
