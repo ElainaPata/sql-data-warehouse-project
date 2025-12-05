@@ -14,8 +14,8 @@ Develop a modern data warehouse using SQL Server to consolidate sales data to en
 - **Data Sources**: Import data from two source files (ERP and CRM) provided as CSV files.
 - **Data Quality**: Cleanse and resolve data quality issues prior to analysis.
 - **Integration**: Combine both sources into a single, user friendly data model designed for analytical queries.
-- **Scrope**: Focus on the latest dataset only; historizationof data is not required.
-- **Documentation**: Provide clear docymentation of the data model to support both business stakeholders and analytics team.
+- **Scrope**: Focus on the latest dataset only.
+- **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics team.
 
 
 ### Analytics & Reporting 
@@ -26,7 +26,5 @@ Develop SQL based analytics to delivery detailed insights into:
 - **Product Performance**
 - **Sales Trends** 
 
-These insights empower stakeholders with key metrics to enable strategic decision making. 
-
 ### 🌟 About Me 
-Hi there! My name is Elaina Pata, I'm a recent graduate that completed my Master of Science in Data Analytics. My goal in creating this projects is to show the scope of my SQL skills in hopes of gaining employement as a Data Engineer.
+Hi there! My name is Elaina Pata, I'm a recent graduate that completed my Master of Science in Data Analytics and have strong interest in data engineering and scalable data systems. This project was created to demonstrate my understanding of the ETL process, datawarehousing fundamentals, and SQL development by building a datawarehouse from scratch. My goal is to showcase my ability to design a data model, build ETL workflows, and transform raw data into structured formats to use for business analysis. 
