@@ -8,7 +8,7 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 ### Buidling the Data Warehouse (Data Engineering) 
 
 #### Obejective 
-Develop a modern data warehouse using SQL Server to consolidate sales data to enable analytical reporting and informed decision-making. 
+Develop a modern data warehouse using Azure Data Studio to consolidate sales data to enable analytical reporting and informed decision-making. 
 
 #### Specifications 
 - **Data Sources**: Import data from two source files (ERP and CRM) provided as CSV files.
